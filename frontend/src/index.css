@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-orbitron: 'Orbitron', -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    background-color: #000000;
+    color: #e2fee6;
+    font-family: var(--font-mono);
+  }
+
+  h1, h2, h3, .font-orbitron {
+    font-family: var(--font-orbitron);
+  }
+}
+
+/* Custom Matrix neon glows and effects */
+.matrix-text-glow {
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.7), 0 0 20px rgba(0, 255, 102, 0.4), 0 0 35px rgba(0, 255, 102, 0.2);
+}
+
+.matrix-text-glow-subtle {
+  text-shadow: 0 0 8px rgba(0, 255, 102, 0.45);
+}
+
+.matrix-box-glow {
+  box-shadow: 0 0 20px rgba(0, 255, 102, 0.15), inset 0 0 20px rgba(0, 255, 102, 0.05);
+}
+
+.matrix-box-glow-strong {
+  box-shadow: 0 0 30px rgba(0, 255, 102, 0.35), inset 0 0 20px rgba(0, 255, 102, 0.1);
+}
+
+.matrix-border-glow {
+  border-color: rgba(0, 255, 102, 0.4);
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
+}
+
+/* Scanline and CRT texture effects */
+.matrix-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 255, 102, 0.025) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.015),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.015)
+  );
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Custom scrollbar in matrix green */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020703;
+}
+::-webkit-scrollbar-thumb {
+  background: #00FF6640;
+  border: 1px solid #00FF6660;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00FF6680;
+  box-shadow: 0 0 10px #00FF66;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+.hover-glitch:hover {
+  animation: glitch 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+

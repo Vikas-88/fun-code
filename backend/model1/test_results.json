@@ -1,0 +1,27 @@
+{
+    "success": true,
+    "language": "python",
+    "bug_classification": {
+        "prediction": "CLEAN",
+        "confidence": 0.5407
+    },
+    "static_analysis": {
+        "success": true,
+        "language": "python",
+        "total_bugs": 0,
+        "bugs": []
+    },
+    "repair": {
+        "generated_code": "def calculate_area(length, width):\n    # Calculate the area using multiplication\n    area = length * width\n    return area",
+        "validation": {
+            "valid": true,
+            "message": "Python syntax passed."
+        },
+        "functional_tests": {
+            "passed": true,
+            "status": "PASSED",
+            "error": ""
+        },
+        "accepted": true
+    }
+}

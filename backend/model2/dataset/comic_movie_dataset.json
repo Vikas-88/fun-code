@@ -1,0 +1,446 @@
+[
+    {
+        "movie": "Baahubali",
+        "character": "Baahubali",
+        "concept": "Variable",
+        "scenario": "A container storing the kingdom's resources",
+        "mapping": "Variable = Container; Value = Stored resource",
+        "explanation": "A variable stores information just as a container stores resources.",
+        "keywords": [
+            "variable",
+            "storage",
+            "value",
+            "assignment"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Avengers",
+        "concept": "Array",
+        "scenario": "A team roster containing multiple superheroes",
+        "mapping": "Array = Team roster; Element = Hero; Index = Position",
+        "explanation": "An array stores multiple values that can be accessed using their positions.",
+        "keywords": [
+            "array",
+            "list",
+            "index",
+            "elements"
+        ]
+    },
+    {
+        "movie": "Game of Thrones",
+        "character": "King",
+        "concept": "If-Else Condition",
+        "scenario": "A king makes different decisions depending on a situation",
+        "mapping": "If = First decision; Else = Alternative decision",
+        "explanation": "An if-else statement selects an execution path based on a condition.",
+        "keywords": [
+            "condition",
+            "if",
+            "else",
+            "decision"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Iron Man",
+        "concept": "Function",
+        "scenario": "A reusable Iron Man suit ability",
+        "mapping": "Function = Reusable operation; Function call = Activation",
+        "explanation": "A function contains reusable instructions that can be executed whenever needed.",
+        "keywords": [
+            "function",
+            "method",
+            "reusability",
+            "call"
+        ]
+    },
+    {
+        "movie": "Baahubali",
+        "character": "The Kingdom's Army",
+        "concept": "For Loop",
+        "scenario": "Soldiers repeating a training sequence",
+        "mapping": "Loop = Repeated activity; Iteration = One repetition",
+        "explanation": "A loop repeats instructions until its specified condition or range is completed.",
+        "keywords": [
+            "loop",
+            "iteration",
+            "repetition",
+            "for"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Avengers",
+        "concept": "Boolean",
+        "scenario": "A mission is either active or inactive",
+        "mapping": "True = Active; False = Inactive",
+        "explanation": "A Boolean represents one of two logical values: True or False.",
+        "keywords": [
+            "boolean",
+            "true",
+            "false",
+            "logic"
+        ]
+    },
+    {
+        "movie": "Game of Thrones",
+        "character": "The King's Council",
+        "concept": "Function Parameters",
+        "scenario": "A council receives information before making a decision",
+        "mapping": "Parameter = Input placeholder; Argument = Actual information",
+        "explanation": "Parameters allow functions to receive information when called.",
+        "keywords": [
+            "parameter",
+            "argument",
+            "input"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Thanos",
+        "concept": "Searching",
+        "scenario": "Searching for a particular Infinity Stone",
+        "mapping": "Search target = Infinity Stone; Search result = Found location",
+        "explanation": "Searching algorithms find a particular element within a collection.",
+        "keywords": [
+            "search",
+            "find",
+            "algorithm",
+            "element"
+        ]
+    },
+    {
+        "movie": "Baahubali",
+        "character": "Kingdom's Messengers",
+        "concept": "Queue",
+        "scenario": "Messengers waiting in an orderly line to deliver messages",
+        "mapping": "Queue = Waiting line; First arrival = First served",
+        "explanation": "A queue follows FIFO: First In, First Out.",
+        "keywords": [
+            "queue",
+            "FIFO",
+            "data structure"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Iron Man",
+        "concept": "Class and Object",
+        "scenario": "An Iron Man suit design and the individual suits created from it",
+        "mapping": "Class = Blueprint; Object = Individual suit",
+        "explanation": "A class defines properties and behaviour, while objects are instances of that class.",
+        "keywords": [
+            "class",
+            "object",
+            "OOP",
+            "blueprint"
+        ]
+    },
+    {
+        "movie": "KGF",
+        "character": "Rocky",
+        "concept": "Access Control",
+        "scenario": "Controlling access to the resources of a gold mine.",
+        "mapping": "Access Control = Deciding who can access resources.",
+        "explanation": "Programs use access control to decide which users can access protected resources.",
+        "keywords": [
+            "access",
+            "permissions",
+            "security"
+        ]
+    },
+    {
+        "movie": "Salaar",
+        "character": "Deva",
+        "concept": "State Machine",
+        "scenario": "A character's actions change according to the situation.",
+        "mapping": "State = Current situation; Transition = Change of situation.",
+        "explanation": "A state machine changes between defined states based on events.",
+        "keywords": [
+            "state",
+            "transition",
+            "machine"
+        ]
+    },
+    {
+        "movie": "Jailer",
+        "character": "Muthuvel Pandian",
+        "concept": "Permission Management",
+        "scenario": "A jailer manages who can enter restricted areas.",
+        "mapping": "Jailer = Access manager; Permission = Access rights.",
+        "explanation": "Permission management controls what different users are allowed to do.",
+        "keywords": [
+            "permission",
+            "access",
+            "security"
+        ]
+    },
+    {
+        "movie": "Housefull",
+        "character": "Ensemble Characters",
+        "concept": "Exception Handling",
+        "scenario": "Unexpected situations create confusion and require solutions.",
+        "mapping": "Unexpected situation = Exception; Handling = Recovery.",
+        "explanation": "Exception handling allows programs to respond to unexpected errors.",
+        "keywords": [
+            "exception",
+            "error",
+            "try",
+            "except"
+        ]
+    },
+    {
+        "movie": "3 Idiots",
+        "character": "Rancho",
+        "concept": "Debugging",
+        "scenario": "Questioning assumptions and finding the actual reason behind a problem.",
+        "mapping": "Problem = Program error; Investigation = Debugging.",
+        "explanation": "Debugging identifies the root cause of a problem instead of only treating its symptoms.",
+        "keywords": [
+            "debugging",
+            "problem solving",
+            "logic"
+        ]
+    },
+    {
+        "movie": "Dhurandhar",
+        "character": "Undercover Agent",
+        "concept": "Data Filtering",
+        "scenario": "An undercover agent separates useful intelligence from irrelevant information.",
+        "mapping": "Raw information = Input data; Useful intelligence = Filtered data.",
+        "explanation": "Data filtering selects relevant information from a larger collection.",
+        "keywords": [
+            "filter",
+            "data",
+            "information"
+        ]
+    },
+    {
+        "movie": "Death Note",
+        "character": "Light Yagami",
+        "concept": "Conditional Logic",
+        "scenario": "Actions depend on specific rules and conditions.",
+        "mapping": "Condition = Rule; Execution = Resulting action.",
+        "explanation": "Conditional statements execute different instructions based on given conditions.",
+        "keywords": [
+            "if",
+            "else",
+            "condition",
+            "logic"
+        ]
+    },
+    {
+        "movie": "Attack on Titan",
+        "character": "Eren Yeager",
+        "concept": "Boundary Checking",
+        "scenario": "Walls define boundaries that cannot be crossed without consequences.",
+        "mapping": "Wall = Boundary; Crossing boundary = Invalid access.",
+        "explanation": "Boundary checking ensures that operations stay within permitted limits.",
+        "keywords": [
+            "boundary",
+            "limit",
+            "validation"
+        ]
+    },
+    {
+        "movie": "One Piece",
+        "character": "Monkey D. Luffy",
+        "concept": "Graph Traversal",
+        "scenario": "Exploring different islands connected through routes.",
+        "mapping": "Island = Node; Route = Edge; Exploration = Traversal.",
+        "explanation": "Graph traversal visits connected nodes in a graph.",
+        "keywords": [
+            "graph",
+            "node",
+            "edge",
+            "traversal"
+        ]
+    },
+    {
+        "movie": "Your Name",
+        "character": "Taki and Mitsuha",
+        "concept": "Synchronization",
+        "scenario": "Two characters experience events that need to be understood across different timelines.",
+        "mapping": "Characters = Processes; Coordinated events = Synchronization.",
+        "explanation": "Synchronization coordinates operations that depend on each other.",
+        "keywords": [
+            "synchronization",
+            "events",
+            "coordination"
+        ]
+    },
+    {
+        "movie": "Shinchan",
+        "character": "Shinchan",
+        "concept": "Conditional Branching",
+        "scenario": "Different situations lead to different reactions.",
+        "mapping": "Situation = Condition; Reaction = Execution path.",
+        "explanation": "Conditional branching selects different paths depending on conditions.",
+        "keywords": [
+            "branching",
+            "if",
+            "else"
+        ]
+    },
+    {
+        "movie": "Oggy",
+        "character": "Oggy",
+        "concept": "Event-Driven Programming",
+        "scenario": "Oggy reacts whenever the cockroaches create a new problem.",
+        "mapping": "Cockroach action = Event; Oggy's reaction = Event handler.",
+        "explanation": "Event-driven programming executes actions in response to events.",
+        "keywords": [
+            "event",
+            "handler",
+            "trigger"
+        ]
+    },
+    {
+        "movie": "Doraemon",
+        "character": "Doraemon",
+        "concept": "Modular Programming",
+        "scenario": "Different gadgets perform different specialized tasks.",
+        "mapping": "Gadget = Module; Task = Specific functionality.",
+        "explanation": "Modular programming divides a large program into smaller independent components.",
+        "keywords": [
+            "module",
+            "component",
+            "reusability"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Iron Man",
+        "concept": "Debugging and Diagnostics",
+        "scenario": "Iron Man checks his suit systems to identify technical problems.",
+        "mapping": "Suit diagnostics = Program inspection; Fault = Bug.",
+        "explanation": "Debugging examines a program to identify and fix faults.",
+        "keywords": [
+            "debugging",
+            "diagnostics",
+            "testing"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Captain America",
+        "concept": "Queue",
+        "scenario": "Team members follow an organized order during a mission.",
+        "mapping": "Queue = Ordered line; First arrival = First served.",
+        "explanation": "A queue follows the FIFO principle.",
+        "keywords": [
+            "queue",
+            "FIFO",
+            "order"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Thor",
+        "concept": "Inheritance",
+        "scenario": "Thor belongs to a royal family and inherits characteristics associated with his lineage.",
+        "mapping": "Parent class = Base type; Child class = Derived type.",
+        "explanation": "Inheritance allows a class to acquire properties and methods from another class.",
+        "keywords": [
+            "inheritance",
+            "OOP",
+            "parent",
+            "child"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Hulk",
+        "concept": "State Transition",
+        "scenario": "Bruce Banner changes between different physical states.",
+        "mapping": "State = Current condition; Transition = State change.",
+        "explanation": "A state transition changes an object's current state based on an event.",
+        "keywords": [
+            "state",
+            "transition",
+            "change"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Wanda",
+        "concept": "Boolean Logic",
+        "scenario": "A decision can have two possible logical outcomes.",
+        "mapping": "True = Condition satisfied; False = Condition not satisfied.",
+        "explanation": "Boolean logic operates using True and False values.",
+        "keywords": [
+            "boolean",
+            "true",
+            "false",
+            "logic"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Vision",
+        "concept": "Data Processing",
+        "scenario": "Analyzing information and interpreting incoming data.",
+        "mapping": "Input = Incoming information; Processing = Analysis; Output = Result.",
+        "explanation": "Data processing converts input information into useful results.",
+        "keywords": [
+            "data",
+            "processing",
+            "input",
+            "output"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Natasha",
+        "concept": "Authentication",
+        "scenario": "A spy's identity must be verified before accessing a restricted operation.",
+        "mapping": "Identity = User; Verification = Authentication.",
+        "explanation": "Authentication verifies the identity of a user or system.",
+        "keywords": [
+            "authentication",
+            "identity",
+            "security"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Ultron",
+        "concept": "Infinite Loop",
+        "scenario": "An automated system continues repeating an operation without reaching its intended stopping point.",
+        "mapping": "Repeated operation = Loop; Missing stop condition = Infinite loop.",
+        "explanation": "An infinite loop continues executing because its termination condition is never reached.",
+        "keywords": [
+            "loop",
+            "infinite",
+            "termination"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Victor Doom",
+        "concept": "Encapsulation",
+        "scenario": "A protected system keeps its internal resources controlled.",
+        "mapping": "Protected internal data = Private members; Approved access = Public methods.",
+        "explanation": "Encapsulation bundles data and methods while controlling access to internal details.",
+        "keywords": [
+            "encapsulation",
+            "OOP",
+            "private",
+            "public"
+        ]
+    },
+    {
+        "movie": "Marvel",
+        "character": "Doctor Strange",
+        "concept": "Backtracking",
+        "scenario": "Exploring alternative possibilities and reconsidering earlier choices.",
+        "mapping": "Possible path = Solution path; Returning to an earlier choice = Backtracking.",
+        "explanation": "Backtracking explores possible solutions and returns to earlier decisions when a path fails.",
+        "keywords": [
+            "backtracking",
+            "recursion",
+            "algorithm"
+        ]
+    }
+]

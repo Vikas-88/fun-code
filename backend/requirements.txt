@@ -1,0 +1,14 @@
+# Core Backend Framework
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+
+# CodeBERT & Neural Repair Dependencies (Optional / Acceleration)
+torch>=2.0.0
+transformers>=4.38.0
+
+# Tree-sitter & Linting
+tree-sitter>=0.21.0
+tree-sitter-java>=0.21.0
+ruff>=0.3.0
+

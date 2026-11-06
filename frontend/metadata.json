@@ -1,0 +1,6 @@
+{
+  "name": "FUN CODE",
+  "description": "Enter the world of code. Your AI-powered coding companion that transforms complex programming into simple stories, explains logic, and solves coding errors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

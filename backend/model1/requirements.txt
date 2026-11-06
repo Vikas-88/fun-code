@@ -1,0 +1,7 @@
+torch
+transformers
+accelerate
+safetensors
+tree-sitter
+tree-sitter-java
+ruff
